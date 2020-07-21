@@ -7,3 +7,13 @@ applications:
 #  health-check-http-endpoint: /index.html
 #  path: build/libs/spring-music-1.0.jar
 #  env:
+  env:
+    LENA_VERSION: 1.3.1
+    LENA_MANAGER_ADDRESS: "52.78.131.112:7700"
+    LENA_AGENT_RUN: "Y"
+    LENA_CONFIG_TEMPLATE_ID: "WEB-001"
+    LENA_CONFIG_TEMPLATE_DOWNLOAD: "Y"
+    LENA_MANAGER_KEY: "jva%2BEpN%2FI%2BzUqeBODcrThLZz15AKGeDvSHGgCLSzTKuV1BNulLHAHugDRUzgeccueIpk6pBUrLti7M9W%2FJSAjQ%3D%3D"
+    LENA_LICENSE_DOWNLOAD_URL: "manager"
+    LENA_CONTRACT_CODE: "pghzJJqTdzaGtTuASr8yfw=="
+

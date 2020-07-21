@@ -2,7 +2,17 @@
 applications:
 - name: lena-was-test
   memory: 1G
-  random-route: true
+  host: lena-was
+#  domain: lena-was.bosh-lite.com
+#  random-route: true
+#  routes:
+#  - route: lena-was.bosh-lite.com:60180
   path: welcome-cf.war
   env:
     LENA_VERSION: 1.3.1
+    LENA_CONFIG_TEMPLATE_DOWNLOAD: "Y"
+    LENA_CONFIG_TEMPLATE_ID: "WAS-001"
+    LENA_MANAGER_ADDRESS: "52.78.131.112:7700"
+    LENA_MANAGER_KEY: "jva%2BEpN%2FI%2BzUqeBODcrThLZz15AKGeDvSHGgCLSzTKuV1BNulLHAHugDRUzgeccueIpk6pBUrLti7M9W%2FJSAjQ%3D%3D"
+    LENA_CONTRACT_CODE: "pghzJJqTdzaGtTuASr8yfw=="
+    JAVA_DOMAIN_CACHE_TTL: "3"
